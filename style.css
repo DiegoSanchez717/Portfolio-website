@@ -32,7 +32,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  background-color: rgb(16, 28, 51, 0.95);
+  background-color: rgb(16, 28, 51, 0.3);
   border-radius: 200px;
   border-style: groove;
   border-color: rgb(16, 28, 51, 0.4);
@@ -40,7 +40,8 @@ nav {
   padding-right: 50px;
   padding-top: 5px;
   padding-bottom: 5px;
-  border-width: 2px;
+  border-width: 1.6px;
+  backdrop-filter: blur(15px);
 }
 
 .logo {
@@ -431,6 +432,12 @@ nav .fa-solid{
 @media only screen and (max-width: 600px) {
   #header {
     background-image: url(images/crown-of-thorns\ phone.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  nav {
+    backdrop-filter: none;
+    background-color: rgb(16, 28, 51, 0.95);
   }
   .header-text {
     margin-top: 100%;
