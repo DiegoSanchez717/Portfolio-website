@@ -80,13 +80,27 @@ nav ul li a:hover::after {
 }
 
 .header-text {
-  margin-top: 20%;
-  font-size: 30px;
+  margin-top: 19%;
+  font-size: 35px;
+}
+
+.anim {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: moveup 0.5s linear forwards;
+}
+
+@keyframes moveup {
+  100%{
+    opacity: 1;
+    transform: translateY(0px);
+  }
 }
 
 .header-text h1 {
-  font-size: 60px;
-  margin-top: 20px;
+  font-size: 65px;
+  margin-top: 17px;
+  animation-delay: 0.5s;
 }
 
 .header-text h1 span {
