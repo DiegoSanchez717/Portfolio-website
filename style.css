@@ -443,7 +443,7 @@ nav .fa-solid{
   display: none;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 428px) {
   #header {
     background-image: url(images/crown-of-thorns\ phone.jpg);
     background-size: cover;
