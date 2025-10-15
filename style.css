@@ -450,6 +450,7 @@ nav .fa-solid{
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    min-height: 30vh;
   }
   nav {
     backdrop-filter: none;
