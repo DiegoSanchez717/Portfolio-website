@@ -446,7 +446,7 @@ nav .fa-solid{
 @media only screen and (max-width: 600px) {
   #header {
     background-image: url(images/crown-of-thorns\ phone.jpg);
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     background-repeat: repeat;
     background-attachment: fixed;
