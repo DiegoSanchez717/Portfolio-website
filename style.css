@@ -448,7 +448,7 @@ nav .fa-solid{
     background-image: url(images/crown-of-thorns\ phone.jpg);
     background-size: contain;
     background-position: center;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     background-attachment: fixed;
   }
   nav {
